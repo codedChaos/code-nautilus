@@ -19,7 +19,7 @@ VSCODE = 'code'
 VSCODENAME = 'Code'
 
 # always create new window?
-NEWWINDOW = False
+NEWWINDOW = True
 
 
 class VSCodeExtension(GObject.GObject, Nautilus.MenuProvider):
